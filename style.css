@@ -1,30 +1,30 @@
 body {
-  background-color: #f2cab6;
+  background-color: #f7e0b8;
   font-family: Arial, sans-serif;
   font-size: 16px;
-  color: #231f20;
+  color: #3b3a36;
 }
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
   font-family: 'Pacifico', cursive;
-  color: #e04f68;
+  color: #f67e7d;
   text-shadow: 2px 2px #f7d4c4;
 }
 
 a {
-  color: #4f86c6;
+  color: #3282b8;
   text-decoration: none;
   transition: all 0.3s ease-out;
 }
 
 a:hover {
-  color: #823b58;
+  color: #f67e7d;
 }
 
 button {
-  background-color: #e04f68;
+  background-color: #f67e7d;
   border: none;
   border-radius: 30px;
   color: #fff;
@@ -36,7 +36,7 @@ button {
 }
 
 button:hover {
-  background-color: #823b58;
+  background-color: #db5461;
 }
 
 .hero {
@@ -68,7 +68,7 @@ button:hover {
 }
 
 .skills {
-  background-color: #e04f68;
+  background-color: #f67e7d;
   padding: 80px 0;
   text-align: center;
 }
@@ -92,7 +92,7 @@ button:hover {
   display: block;
   font-size: 3rem;
   color: #fff;
-  text-shadow: 2px 2px #231f20;
+  text-shadow: 2px 2px #3b3a36;
 }
 
 .contact {
