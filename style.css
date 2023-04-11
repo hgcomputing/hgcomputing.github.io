@@ -1,118 +1,55 @@
 body {
-  background-color: #f7e0b8;
   font-family: Arial, sans-serif;
-  font-size: 16px;
-  color: #3b3a36;
+  background-color: silver;
+  color: #333333;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  margin: 0;
-  padding: 0;
-  font-family: 'Pacifico', cursive;
-  color: #f67e7d;
-  text-shadow: 2px 2px #f7d4c4;
+h1, h2 {
+  color: #0082c8;
+  margin-top: 0;
 }
 
 a {
-  color: #3282b8;
-  text-decoration: none;
-  transition: all 0.3s ease-out;
+  color: #0082c8;
 }
 
 a:hover {
-  color: #f67e7d;
+  color: #005fa0;
 }
 
-button {
-  background-color: #f67e7d;
-  border: none;
-  border-radius: 30px;
-  color: #fff;
-  font-family: Arial, sans-serif;
-  font-size: 1rem;
-  padding: 10px 24px;
-  transition: all 0.3s ease-out;
-  cursor: pointer;
-}
-
-button:hover {
-  background-color: #db5461;
-}
-
-.hero {
-  height: 80vh;
-  background-image: url('https://images.unsplash.com/photo-1576227143586-68540473ec3e');
-  background-size: cover;
-  background-position: top center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.hero h2 {
-  font-size: 4rem;
-  line-height: 1.2;
-  text-shadow: 4px 4px #f7d4c4;
-}
-
-.about {
-  background-color: #fff;
-  padding: 80px 0;
-  text-align: center;
-}
-
-.about p {
-  font-size: 1.2rem;
-  margin-bottom: 40px;
-}
-
-.skills {
-  background-color: #f67e7d;
-  padding: 80px 0;
-  text-align: center;
-}
-
-.skills ul {
+ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-.skills li {
-  display: inline-block;
-  margin-right: 20px;
+li {
+  margin-bottom: 5px;
 }
 
-.skills li:last-of-type {
-  margin-right: 0;
+p {
+  margin-top: 0;
 }
 
-.skills span {
-  display: block;
-  font-size: 3rem;
-  color: #fff;
-  text-shadow: 2px 2px #3b3a36;
-}
-
-.contact {
-  background-color: #f7d4c4;
-  padding: 80px 0;
-}
-
-.contact input, .contact textarea {
-  display: block;
-  width: 100%;
+#navigation {
+  background-color: #0082c8;
+  color: white;
   padding: 10px;
-  margin: 20px 0;
-  border: none;
-  border-radius: 5px;
 }
 
-.contact textarea {
-  height: 150px;
+#navigation a {
+  color: white;
+  text-decoration: none;
+  border-bottom: 1px solid white;
+  padding-bottom: 5px;
 }
 
-.contact button {
-  margin-top: 40px;
+#navigation a:hover {
+  border-bottom: 1px solid #005fa0;
+  color: #005fa0;
+}
+
+#content {
+  padding: 10px;
+  background-color: white;
 }
