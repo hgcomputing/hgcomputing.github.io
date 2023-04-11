@@ -5,3 +5,25 @@ function updateTime() {
 }
 
 setInterval(updateTime, 1000);
+
+let isDragging = false;
+let dragStartX;
+let dragStartY;
+let postIt = document.getElementById("post-it");
+
+postIt.addEventListener("mousedown", function(e) {
+  isDragging = true;
+  dragStartX = e.clientX - postIt.offsetLeft;
+  dragStartY = e.clientY - postIt.offsetTop;
+});
+
+postIt.addEventListener("mouseup", function(e) {
+  isDragging = false;
+});
+
+postIt.addEventListener("mousemove", function(e) {
+  if(isDragging) {
+    postIt.style.top = (e.clientY - dragStartY) + "px";
+    postIt.style.left = (e.clientX - dragStartX) + "px";
+  }
+});
